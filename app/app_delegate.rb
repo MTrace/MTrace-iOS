@@ -1,14 +1,11 @@
 class AppDelegate
   def application(application, didFinishLaunchingWithOptions:launchOptions)
-    rootViewController = UIViewController.alloc.init
-    rootViewController.title = 'MTrace'
-    rootViewController.view.backgroundColor = UIColor.whiteColor
-
-    navigationController = UINavigationController.alloc.initWithRootViewController(rootViewController)
-
     @window = UIWindow.alloc.initWithFrame(UIScreen.mainScreen.bounds)
-    @window.rootViewController = navigationController
     @window.makeKeyAndVisible
+
+    storyboard = UIStoryboard.storyboardWithName("MTraceMain", bundle:nil)
+    mainSplitVC = storyboard.instantiateViewControllerWithIdentifier("mainSplitVC")
+    @window.rootViewController = mainSplitVC
 
     true
   end
