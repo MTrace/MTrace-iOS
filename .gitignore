@@ -15,4 +15,7 @@ nbproject
 .sass-cache
 .idea
 .dat*.*
+
 *.mobileprovision
+ib.xcodeproj
+MTraceMain.storyboard
