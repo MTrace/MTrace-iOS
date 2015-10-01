@@ -18,3 +18,6 @@ Motion::Project::App.setup do |app|
     app.provisioning_profile = "Development.mobileprovision"
   end
 end
+
+IB::RakeTask.new do |project|
+end
