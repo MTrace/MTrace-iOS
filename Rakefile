@@ -13,4 +13,8 @@ Motion::Project::App.setup do |app|
   app.name = 'MTrace'
 
   app.vendor_project('vendor/NetInterface', :static)
+
+  app.development do
+    app.provisioning_profile = "Development.mobileprovision"
+  end
 end
