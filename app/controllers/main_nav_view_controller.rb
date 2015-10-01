@@ -2,6 +2,8 @@ class MTraceMainNavVC < UITableViewController
   CELL_ID = 'MTraceMainNavMenu'
 
   def viewDidLoad
+    self.title = 'Navigation'
+
     view.dataSource = view.delegate = self
 
     @menu = [
