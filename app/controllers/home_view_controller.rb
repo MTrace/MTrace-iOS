@@ -1,6 +1,6 @@
 class HomeViewController < UIViewController
   def viewDidLoad
     super
-    self.title = 'MTrace'
+    self.title = App.name
   end
 end
