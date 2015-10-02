@@ -14,6 +14,7 @@ Motion::Project::App.setup do |app|
 
   app.vendor_project('vendor/NetInterface', :static)
   app.vendor_project('vendor/SimplePingHelper', :static)
+  app.vendor_project('vendor/SimplePing', :static, :cflags => '-fobjc-arc')
 
   app.development do
     app.provisioning_profile = "Development.mobileprovision"

@@ -1,0 +1,3 @@
+build-*/*.a
+build-*/*.m.o
+build-*/*.pch
