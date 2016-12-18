@@ -10,7 +10,7 @@ GEM
     bubble-wrap (1.9.6)
     claide (1.0.1)
     colored (1.2)
-    concurrent-ruby (1.0.2)
+    concurrent-ruby (1.0.3)
     i18n (0.7.0)
     ib (1.0.1)
       thor (~> 0.19.1)
